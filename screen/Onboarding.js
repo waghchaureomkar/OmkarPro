@@ -9,7 +9,7 @@ const Onboarding = ({navigation}) => {
             style={{resizeMode:'cover',height:'100%',width:'100%'}}>
             <Text style={{
                 position:'absolute',
-                bottom: 120,
+                bottom: 100,
                 right: 30,
                 color:'#4274eb',
                 fontSize:24,
@@ -20,7 +20,7 @@ const Onboarding = ({navigation}) => {
             safe and sound</Text>
             <View style={{
                 position:'absolute',
-                bottom:50,
+                bottom:30,
                 right:40
             }}>
             <TouchableOpacity onPress={() => navigation.navigate("Tabs")}  >
